@@ -4,7 +4,6 @@ using P2.Models.Models;
 class Program
 {
     private static readonly EquipoService _equipoService = new EquipoService();
-
     static async Task Main(string[] args)
     {
         while (true)
