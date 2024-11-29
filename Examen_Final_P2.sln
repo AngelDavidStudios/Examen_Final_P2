@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.APIRest", "P2.APIRest\P2.APIRest.csproj", "{27988F1D-9B07-4A74-8F54-1D209A421633}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2.Models", "P2.Models\P2.Models.csproj", "{A76409CD-7236-4A92-88CE-71C82A210903}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{27988F1D-9B07-4A74-8F54-1D209A421633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27988F1D-9B07-4A74-8F54-1D209A421633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27988F1D-9B07-4A74-8F54-1D209A421633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76409CD-7236-4A92-88CE-71C82A210903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76409CD-7236-4A92-88CE-71C82A210903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76409CD-7236-4A92-88CE-71C82A210903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76409CD-7236-4A92-88CE-71C82A210903}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
