@@ -1,3 +1,6 @@
+using P2.APIRest.Repository;
+using P2.APIRest.Repository.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +10,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 // Repositories
-// builder.Services.AddScoped<IEquipoRepository, EquipoRepository>();
+builder.Services.AddScoped<IEquipoRepository, EquipoRepository>();
 
 var app = builder.Build();
 

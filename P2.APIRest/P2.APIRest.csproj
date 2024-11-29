@@ -16,8 +16,4 @@
       <ProjectReference Include="..\P2.Models\P2.Models.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
 </Project>
